@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="productstyle.css">
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /> 
+    <title>Home | Fruitzy</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><i class='bx bxs-basket'></i>Fruitzy</a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="#home" onclick="return homeClick()">Home</a></li>
+            <li><a href="#products" class="home-active" onclick="return productClick()" >Products</a></li>
+            <li><a href="#about" onclick="return aboutClick()">About</a></li>
+            <li><a href="#reviews"onclick="return reviewClick()">Reviews</a></li>
+        </ul>
+
+        <div class="profile">
+            <img src="images/profile.jpg" alt="">
+            <span>Archie Amahan</span>
+            <i class='bx bx-caret-down'></i>
+        </div>
+    </header>
+    
+    <!-- Products nani sir-->
+    <section class="products" id="products">
+        <div class="heading">
+            <h1>Our popular<br><span>Products</h1>
+                <a href="#" class="button">Show now<i class='bx bx-right-arrow-alt'></i></a>
+        </div> 
+        
+        <div class="products-container">
+            <div class="box">
+                <img src="images/red apple.png" alt="">
+                <span>Fresh Items</span>
+                <h2>Farm fresh organic <br>fruits 250g</h2>
+                <h3 class="price">$7.99 <span>/kg</span></h3>
+                <i class='bx bx-cart-alt'></i>
+                <i class='bx bx-heart' ></i>
+                <span class="discount">-25%</span>
+            </div>
+
+            <div class="box">
+                <img src="images/banana.png" alt="">
+                <span>Fresh Items</span>
+                <h2>Farm fresh organic <br>fruits 250g</h2>
+                <h3 class="price">$7.99 <span>/kg</span></h3>
+                <i class='bx bx-cart-alt'></i>
+                <i class='bx bx-heart' ></i>
+                <span class="discount">-25%</span>
+            </div>
+
+            <div class="box">
+                <img src="images/avocado.png" alt="">
+                <span>Fresh Items</span>
+                <h2>Farm fresh organic <br>fruits 250g</h2>
+                <h3 class="price">$7.99 <span>/kg</span></h3>
+                <i class='bx bx-cart-alt'></i>
+                <i class='bx bx-heart' ></i>
+                <span class="discount">-25%</span>
+            </div>
+
+            <div class="box">
+                <img src="images/strawberry.png" alt="">
+                <span>Fresh Items</span>
+                <h2>Farm fresh organic <br>fruits 250g</h2>
+                <h3 class="price">$7.99 <span>/kg</span></h3>
+                <i class='bx bx-cart-alt'></i>
+                <i class='bx bx-heart' ></i>
+                <span class="discount">-25%</span>
+            </div>
+
+            <div class="box">
+                <img src="images/carrots.png" alt="">
+                <span>Fresh Items</span>
+                <h2>Farm fresh organic <br>fruits 250g</h2>
+                <h3 class="price">$7.99 <span>/kg</span></h3>
+                <i class='bx bx-cart-alt'></i>
+                <i class='bx bx-heart' ></i>
+                <span class="discount">-25%</span>
+            </div>
+
+            <div class="box">
+                <img src="images/mango.png" alt="">
+                <span>Fresh Items</span>
+                <h2>Farm fresh organic <br>fruits 250g</h2>
+                <h3 class="price">$7.99 <span>/kg</span></h3>
+                <i class='bx bx-cart-alt'></i>
+                <i class='bx bx-heart' ></i>
+                <span class="discount">-25%</span>
+            </div>
+        </div>
+    </section>
+    
+    <section class="footer" id="footer">
+        <div class="footer-box">
+            <a href="#" class="logo"><i class='bx bxs-basket'></i>Fruitzy</a>
+            <p>Corner P. del Rosario and Leon Kilat Streets <br>Cebu City, Cebu, Philippines, 6000</p>
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-youtube' ></i></a>
+            </div>
+        </div>
+        <div class="footer-box">
+            <h2>Useful Links</h2>
+            <a href="#">Payments</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">My Blog</a>
+            <a href="#">Return Policy</a>
+        </div>
+        <div class="footer-box">
+            <h2>Newsletter</h2>
+            <p>Get 10% Discount with <br>Email Newsletter</p>
+            <form action="">
+                <i class='bx bxs-envelope' ></i>
+                <input type="email" name="" id="" placeholder="Enter Your Email">
+                <i class='bx bx-arrow-back bx-rotate-180' ></i>
+            </form>
+        </div>
+    </section>
+
+    <div class="copyright">
+        <p>© Chieetsy All Right Reserved</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

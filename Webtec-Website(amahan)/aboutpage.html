@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="aboutstyle.css">
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /> 
+    <title>Home | Fruitzy</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><i class='bx bxs-basket'></i>Fruitzy</a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="#home" onclick="return homeClick()">Home</a></li>
+            <li><a href="#products" onclick="return productClick()" >Products</a></li>
+            <li><a href="#about" class="home-active" onclick="return aboutClick()">About</a></li>
+            <li><a href="#reviews"onclick="return reviewClick()">Reviews</a></li>
+        </ul>
+
+        <div class="profile">
+            <img src="images/profile.jpg" alt="">
+            <span>Archie Amahan</span>
+            <i class='bx bx-caret-down'></i>
+        </div>
+    </header>
+
+    <!-- Kani about us sir-->
+    <section class="about" id="about">
+        <img src="images/about1.png" alt="">
+        <div class="about-text">
+            <span>About Us</span>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut perferendis, cumque quaerat rerum eum enim voluptates iusto asperiores dolorem ratione labore incidunt quia qui, alias autem unde, aliquid sunt praesentium.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, modi quas! </p>
+            <a href="#" class="button">Learn More<i class='bx bx-right-arrow-alt'></i></a>
+        </div>
+
+        <img class="picture-nako" src="images/profile.jpg" alt="">
+        <div class="creator-part">
+            <span> Creator </span>
+            <h2>Archie Amahan</h2>
+            <h3>IT504P</h3>
+            <p>This is my website project for the WebTec course.
+                Why solo? because I want to practice my skills in this type of field.
+            </p>
+        </div>
+    </section>
+
+    <section class="footer" id="footer">
+        <div class="footer-box">
+            <a href="#" class="logo"><i class='bx bxs-basket'></i>Fruitzy</a>
+            <p>Corner P. del Rosario and Leon Kilat Streets <br>Cebu City, Cebu, Philippines, 6000</p>
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-youtube' ></i></a>
+            </div>
+        </div>
+        <div class="footer-box">
+            <h2>Useful Links</h2>
+            <a href="#">Payments</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">My Blog</a>
+            <a href="#">Return Policy</a>
+        </div>
+        <div class="footer-box">
+            <h2>Newsletter</h2>
+            <p>Get 10% Discount with <br>Email Newsletter</p>
+            <form action="">
+                <i class='bx bxs-envelope' ></i>
+                <input type="email" name="" id="" placeholder="Enter Your Email">
+                <i class='bx bx-arrow-back bx-rotate-180' ></i>
+            </form>
+        </div>
+    </section>
+
+    <div class="copyright">
+        <p>© Chieetsy All Right Reserved</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

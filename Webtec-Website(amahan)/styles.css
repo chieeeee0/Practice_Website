@@ -1,0 +1,176 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    list-style: none;
+    text-decoration: none;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+
+}
+
+:root {
+    --green-color: #3cb815;
+    --light-green-color: #c0eb7b;
+    --orange-color:#ff7e00 ;
+    --light-orange-color: #f75f1d;
+    --text-color: #1a2428;
+    --bg-color: #fff;
+}
+
+
+
+section{
+    padding: 4.5rem 0 1.5rem;
+}
+
+img{
+    width: 100%;  
+}
+
+body{
+    color: var(--text-color);
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: var(--bg-color);
+    box-shadow: 0 8px 11px rgb(14 55 54 / 15%);
+    padding: 20px 0px; 
+    transition: 0.5s;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 50px;     
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: black;
+    column-gap: 0.2rem;
+}
+
+.logo .bx{
+    font-size: 30px;
+    color: orange;
+}
+
+.navbar{
+    display: flex;
+    column-gap: 0.5rem;
+    
+}
+.profile{
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    cursor: pointer;
+}
+.profile img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+.profile span{
+    font-size: 13px;
+    font-weight: 500;
+}
+.navbar a{
+    
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-color);
+    padding: 0.5rem 1rem;
+}
+.navbar a:hover, .navbar .home-active{
+    background: var(--green-color);
+    border-radius: 5rem;
+    color: var(--bg-color);
+    transition: background 0.5s;
+}
+
+#menu-icon{
+    font-size: 24;
+    cursor: pointer;
+    z-index : 10001;
+    display: none;
+    
+}
+
+.container{
+    background: white;
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 30px 0 0 0;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid rgba(3, 14, 14, 0.235);
+    box-shadow: 1px 0 15px 5px rgba(3, 14, 14, 0.235 );
+    
+}
+.login-form{
+    margin: 50px 0 50px 20px;
+    text-align: left;  
+}
+label{
+    font-size: 15px;
+    
+}
+
+input{
+    padding: 5px;
+    margin: auto;
+    object-fit: contain;
+    font-size: 15px;
+    width: 300px;
+}
+
+
+button{
+    font-size: 0.8rem;
+    width: 300px;
+    padding: 10px;
+    margin: 50px 0px 20px 3px;
+    color:white;
+    text-align: center;
+    background: green;
+    transition: 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background: orange;
+    color: green;
+}
+
+.home-contain{
+    margin: auto;
+    margin-top: 150px;
+    background-color: white;
+    object-fit: contain;
+    width: 400px;
+    height: auto;
+    transition: 0.3s ease;
+}
+
+.home-contain h1{
+    color: green;
+}
+
+.home-contain:hover{
+    transform: scale(1.05);
+}
